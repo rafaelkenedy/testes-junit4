@@ -1,11 +1,11 @@
-package br.com.rafael.testes;
-
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
+import service.ClienteServiceTest;
+import service.ContratoServiceTest;
 
 
 @RunWith(Suite.class)
-@SuiteClasses(ClienteTest.class)
+@SuiteClasses({ClienteServiceTest.class, ClienteServiceTest.class, ContratoServiceTest.class})
 public class AllTests {
 }
